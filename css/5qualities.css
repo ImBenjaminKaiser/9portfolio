@@ -25,7 +25,7 @@ body {
   border-radius: 16px;
   z-index: 3;
   -webkit-backdrop-filter: brightness(75%) saturate(175%);
-          backdrop-filter: brightness(75%) saturate(175%);
+  backdrop-filter: brightness(75%) saturate(175%);
 }
 
 .spacer {
@@ -90,8 +90,31 @@ body {
     margin: 25px;
   }
 }
+@media only screen and (max-width: 64em) {
+  .scroll-wrapper {
+    flex-direction: column;
+  }
+  .scroll-wrapper-wrapper {
+    flex-direction: column;
+  }
+  body {
+    height: 100%;
+  }
+  html {
+    height: 100%;
+  }
+  .scroll-box-element {
+    margin: 25px;
+  }
+  body {
+    background-image: url(../img/5qualitybg.svg);
+  }
+  .scroll-wrapper-wrapper {
+    background-image: none;
+  }
+}
 @media not screen and (prefers-reduced-motion: reduce) {
   .scroll-wrapper-wrapper {
     height: 100vh;
   }
-}/*# sourceMappingURL=5qualities.css.map */
+} /*# sourceMappingURL=5qualities.css.map */
