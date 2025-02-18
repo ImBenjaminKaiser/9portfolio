@@ -8,6 +8,7 @@
   align-items: center;
   width: 100%;
   background-image: url(../img/5qualitybg.svg);
+  height: 100vh !important; /* Override other height properties */
 }
 
 body {
@@ -96,6 +97,8 @@ body {
   }
   .scroll-wrapper-wrapper {
     flex-direction: column;
+    background-image: none;
+    height: 100% !important;
   }
   body {
     height: 100%;
@@ -109,12 +112,10 @@ body {
   body {
     background-image: url(../img/5qualitybg.svg);
   }
-  .scroll-wrapper-wrapper {
-    background-image: none;
-  }
 }
+/* If prefers reduced motion is true: */
 @media not screen and (prefers-reduced-motion: reduce) {
   .scroll-wrapper-wrapper {
-    height: 100vh;
+    height: 100%;
   }
 } /*# sourceMappingURL=5qualities.css.map */

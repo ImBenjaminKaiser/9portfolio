@@ -19,12 +19,18 @@ document.addEventListener("DOMContentLoaded", () => {
   var widerScreenWidth = window.matchMedia("(max-width: 64em)");
   // From https://stackoverflow.com/a/45947699
 
-  if (isReduced == false && widerScreenWidth.matches == false) {
+  console.log("isReduced = ", isReduced);
+  console.log("screenwidth =", widerScreenWidth.matches);
+
+  if (isReduced == false && widerScreenWidth.matches == true) {
     canUseLenis = true;
   } else {
     canUseLenis = null;
+    console.log("set lenis to null");
   }
+
   console.log(canUseLenis);
+
   // Define variables to use in animation code
 
   const scrollWrapperWrapper = document.querySelector(
