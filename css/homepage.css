@@ -8,14 +8,14 @@ body {
   height: auto;
   margin: 32px;
   align-self: end;
-  border-bottom: 4px #458BA1 solid;
+  border-bottom: 4px #458ba1 solid;
 }
 
 .me-img > img::before {
   position: absolute;
   width: 15vw;
   height: auto;
-  border: 8px #458BA1 solid;
+  border: 8px #458ba1 solid;
 }
 
 .hero-section {
@@ -80,7 +80,7 @@ body {
 .tagline-box {
   width: 42px;
   height: 6px;
-  background: #458BA1;
+  background: #458ba1;
   margin-right: 8px;
 }
 
@@ -98,7 +98,7 @@ body {
 .yapping-side-color-bar {
   height: 100%;
   width: 8px;
-  background: #458BA1;
+  background: #458ba1;
 }
 
 .yapping-side-color-bar-wrapper {
@@ -119,7 +119,7 @@ body {
 
 .footer-line {
   height: 1px;
-  background: #458BA1;
+  background: #458ba1;
   width: 97vw;
 }
 
@@ -149,23 +149,25 @@ body {
 
 .source-code-link a:visited {
   color: #696969;
-}/*# sourceMappingURL=homepage.css.map */
+} /*# sourceMappingURL=homepage.css.map */
 @media only screen and (max-width: 800px) {
-  
   .hero-section {
     flex-direction: column;
     align-items: center;
   }
-  .me-img{
+  .me-img {
     width: 75%;
     vertical-align: middle;
   }
-  .hero-header{
+  .hero-header {
     margin-bottom: 6px;
     width: fit-content;
   }
-  .homepage-image{
+  .homepage-image {
     align-items: center;
     width: 100%;
   }
+}
+.grainy-background {
+  background-image: url(../img/homepage_bg.svg);
 }
