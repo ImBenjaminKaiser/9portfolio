@@ -143,11 +143,14 @@ nav ul.sub-menus a:hover {
 .footer-content {
   background: #c62368;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column !important;
   margin-top: -5px;
   padding: 32px;
+  p {
+    color: black !important;
+  }
 }
 
 .footer-content > button {
@@ -181,5 +184,14 @@ nav ul.sub-menus a:hover {
 @media only screen and (max-width: 985px) {
   a {
     margin: 0px !important;
+  }
+}
+.code-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  p {
+    margin: 0;
   }
 }
