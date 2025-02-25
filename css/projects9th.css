@@ -19,3 +19,17 @@ main {
   font-size: 0.75em;
   color: #919191;
 }
+.introduction {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  h1 {
+    color: #e2e2e2;
+    margin-top: 24px;
+    font-size: 2.25em;
+  }
+  p {
+    margin-top: 0px;
+  }
+}
