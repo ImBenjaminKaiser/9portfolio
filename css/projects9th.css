@@ -14,8 +14,8 @@ main {
   flex-direction: column;
 }
 .caption {
-  margin-left: 128px;
-  margin-top: 8px;
+  width: fit-content;
+  margin-top: 4px;
   font-size: 0.75em;
   color: #919191;
 }
@@ -32,4 +32,17 @@ main {
   p {
     margin-top: 0px;
   }
+}
+.projects-media-wrapper {
+  width: auto;
+}
+.projects-media-wrapper-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+  width: 100vw;
+}
+img {
+  width: 600px;
+  height: auto;
 }
