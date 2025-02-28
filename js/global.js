@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
           //   console.log(e) // Shows information about the current scrolling state
         });
 
-        lenis.on("scroll", ScrollTrigger.update);
+        // lenis.on("scroll", ScrollTrigger.update);
 
         gsap.ticker.add((time) => {
           lenis.raf(time * 1000);

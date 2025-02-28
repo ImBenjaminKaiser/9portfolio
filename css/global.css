@@ -16,7 +16,8 @@ body.animate-all {
   display: none;
 }
 
-body, html {
+body,
+html {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
@@ -60,4 +61,4 @@ html.lenis {
   font-style: normal;
   color: rgb(255, 255, 255);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.26);
-}/*# sourceMappingURL=global.css.map */
+} /*# sourceMappingURL=global.css.map */
