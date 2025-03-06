@@ -1,6 +1,6 @@
 .grainy-background {
-  background-image: url("../img/plb_landing.svg");
-  filter: saturate(60%);
+  background-image: url("../img/wbl9th.svg");
+  filter: saturate(150%);
 }
 nav {
   /* padding-top: 5px !important; */
@@ -15,7 +15,7 @@ nav {
   flex-direction: column;
 }
 .projects-img {
-  width: 800px;
+  width: 400px;
   height: auto;
 }
 .growth-hero {
@@ -46,7 +46,7 @@ nav {
   display: flex;
   flex-direction: row;
   width: 100vw;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .artifacts > p {
   max-width: 400px;
